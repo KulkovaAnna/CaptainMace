@@ -1,0 +1,163 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: url(https://static.tildacdn.com/tild3131-6334-4130-b066-376164393633/WhiteGeometricbackgr.png);
+  background-attachment: fixed; }
+
+header {
+  z-index: 999;
+  width: 100%;
+  height: 4.5rem;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  header .header-grid-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #534f4c; }
+    header .header-grid-container #logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 100%;
+      color: #ffffff; }
+    header .header-grid-container nav {
+      height: 100%; }
+      header .header-grid-container nav ul {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        list-style: none; }
+        header .header-grid-container nav ul a {
+          display: block;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          padding: 1.1em 1em;
+          border-radius: 5px;
+          color: #ffffff; }
+          header .header-grid-container nav ul a:hover {
+            background-color: #746e6a;
+            transform: translateY(-2px);
+            cursor: pointer; }
+
+.hero-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("../imgs/hero.jpg");
+  width: 100%;
+  height: 40rem;
+  margin-top: 4.5rem;
+  background-size: cover; }
+
+.container {
+  margin: 1rem 4rem 0 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #ffffff; }
+  .container:last-child {
+    margin: 0 4rem; }
+
+#describe {
+  width: 100%;
+  padding: 0 2vw; }
+  #describe h1 {
+    text-align: center; }
+  #describe .row-1-2 {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr;
+    grid-gap: 2vw;
+    width: 100%;
+    height: auto; }
+  #describe img {
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #534f4c; }
+
+.gallery {
+  border-color: black;
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .gallery div {
+    width: 20rem;
+    height: 15rem;
+    margin: 1vh 1vw;
+    padding: 0;
+    cursor: zoom-in; }
+    .gallery div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 2px solid #534f4c;
+      border-radius: 10px; }
+
+.footer-grid-container {
+  background: #ffffff;
+  padding: 0 2vw;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #534f4c; }
+  .footer-grid-container #logos {
+    list-style: none; }
+    .footer-grid-container #logos li {
+      display: inline;
+      padding: 0.5rem; }
+    .footer-grid-container #logos i {
+      font-size: 1.5rem;
+      color: #534f4c; }
+
+/*# sourceMappingURL=style.css.map */
