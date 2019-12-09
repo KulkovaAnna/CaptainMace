@@ -12,7 +12,7 @@ header .header-grid-container nav label.toggleMenu {
   font-size: 2rem;
   cursor: pointer; }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
   header .header-grid-container {
     display: block;
     height: auto; }
@@ -58,8 +58,16 @@ header .header-grid-container nav label.toggleMenu {
     #describe .row-1-2 {
       display: block; }
 
+  header .modal .modal-content {
+    width: 100%; }
+
   #blocks {
     display: block;
-    padding: 0; } }
+    padding: 0; }
+
+  .footer-grid-container {
+    justify-content: center; }
+    .footer-grid-container div:nth-child(2) {
+      display: none; } }
 
 /*# sourceMappingURL=media.css.map */
