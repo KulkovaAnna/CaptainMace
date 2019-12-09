@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-color: url(https://static.tildacdn.com/tild3131-6334-4130-b066-376164393633/WhiteGeometricbackgr.png);
+  background-image: url(../imgs/back.png);
   background-attachment: fixed; }
 
 .logos {
